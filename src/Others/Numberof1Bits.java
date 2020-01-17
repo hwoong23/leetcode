@@ -1,6 +1,6 @@
 package Others;
 
-public class Solution {
+public class Numberof1Bits {
   // you need to treat n as an unsigned value
   public int hammingWeight(int n) {
     String binary = Integer.toBinaryString(n);

@@ -1,3 +1,5 @@
+package List;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -6,7 +8,7 @@
  * ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class DeleteList {
   public void deleteNode(ListNode node) {
     node.val = node.next.val;
     node.next = node.next.next;

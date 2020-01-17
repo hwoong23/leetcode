@@ -1,3 +1,5 @@
+package Trees;
+
 class Solution {
   public int maxDepth(TreeNode root) {
     if (root == null) {
@@ -10,14 +12,15 @@ class Solution {
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
 class Solution {
   int maxDepth = 0;
+
   public int maxDepth(TreeNode root) {
     if (root == null) {
       return 0;
@@ -26,6 +29,7 @@ class Solution {
     return maxDepth;
 
   }
+
   public void findMaxDepth(TreeNode node, int depth) {
     if (node != null) {
       depth += 1;
